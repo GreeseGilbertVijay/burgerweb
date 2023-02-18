@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Nav Bar*/
+
+.navbar{
+    width: 100%;
+    height: 8vh;
+    position: relative;   
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: #696969
+}
+.navbar .burgericon img{
+    position: absolute;
+    left: 250px;
+    height: 45% ;
+    margin-top: 2vh;
+
+}
+.navbar .links{
+    display: flex;
+    text-decoration: none;
+    margin-top: 2.5vh;
+    margin-left: 300px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+    color: #757575;
+}
+
+.navbar nav{
+    margin:auto ;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar li{
+    list-style: none;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color:black;
+}
+.navbar button{
+    background-color: white;
+    font-size: 16px;
+    width: 140px;
+    height:40px;
+    margin-top: 1.5vh;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+.navbar button:nth-child(2){
+    background-color:#FF7629;
+    color: white;
+    margin-left: 30px;
+}
+/*Navbar Finished*/

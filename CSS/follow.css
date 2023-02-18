@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.follow{
+    background-color:  #FFF9F3;
+    width: 100%;
+    height: 70vh;
+}
+/*Start*/
+.follow .start{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+ }
+.follow .start h1{
+    margin-top: 150px;
+    margin-left: 100px;
+    font-family:'DM Sans';
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.follow .start button{
+    margin-top: 150px;
+    margin-right:100px ;
+    background-color:white;
+    font-size: 16px;
+    width: 140px;
+    height:50px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color:#FF7629;
+    color: white;
+}
+/*Bottom*/
+.follow .finish{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.follow .finish img:nth-child(1){
+    width: 300px;
+    height: 300px;
+    border-radius: 35px;
+}
+.follow .finish img:nth-child(2){
+    width: 300px;
+    height: 300px;
+    border-radius: 35px;
+}
+.follow .finish .finish-1{
+    width: 350px;
+    height: 350px;
+    border-radius: 35px;
+}
+.follow .finish .finish-1 img{
+    margin: 6px;
+    width: 145px;
+    height: 145px;
+    border-radius: 25px
+}

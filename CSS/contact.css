@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    
+}
+
+/*First*/
+.contact .first{
+    width: 50%;
+    height: 50vh;
+    
+} 
+.contact .first img{
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.contact .first p{
+    font-size: 16px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    margin-left: 100px;
+    color: #6a6868;
+}
+.contact .first .first1{
+    margin-left: 100px;
+}
+
+.contact .first .first1 img{
+    margin-top: 0;
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+}
+/*Second*/
+.contact .second{
+    display: flex;
+    width: 25%;
+    height: 50vh;
+    line-height: 30px;
+}
+.contact .second .second1 h1{
+    margin-top: 100px;
+    font-size: 24px;
+    font-family:'DM Sans';
+    font-weight: 500;
+}
+.contact .second .second1 p{
+    font-size: 16px;
+    font-family:'DM Sans';
+    font-weight: 500;
+    color: #7f7c7c;
+}
+.contact .second .second2 h1{
+    margin-left: 40px;
+    margin-top: 100px;
+    font-size: 24px;
+    font-family:'DM Sans';
+    font-weight: 500;
+}
+.contact .second .second2 p{
+    margin-left: 40px;
+    font-size: 16px;
+    font-family:'DM Sans';
+    font-weight: 500;
+    color: #7f7c7c;
+}
+
+
+
+/*Third*/
+.contact .third{
+    width: 25%;
+    height: 50vh;
+}
+.contact .third h1{
+    margin-top: 90px;
+    font-family:'DM Sans';
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact .third .finish-1 {
+    width: 350px;
+    height: 350px;
+    border-radius: 35px;
+}
+.contact .third .finish-1 img{
+    margin: 6px;
+    width: 145px;
+    height: 145px;
+    border-radius: 25px
+}
+
